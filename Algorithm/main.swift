@@ -8,3 +8,7 @@
 
 import Foundation
 
+
+let str = "abcdaaadddsssdsssdwdefsdfsdfsdvxcdfdgggfdgdffffffffffffdddfggggggggggg%%%%$$$333##@@@%%^^&&&&&&**(()(((())    %%^66"
+let result = compress(str: str)
+print("\(str) : \(str.lengthOfBytes(using: .utf8)) \n \(result) : \(result.lengthOfBytes(using: .utf8))")
