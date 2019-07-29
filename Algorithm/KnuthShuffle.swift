@@ -22,3 +22,12 @@ func shuffleArray(array: [Any]) -> [Any] {
     return shuffleArr
 }
 
+func shuffleArray(array: inout [Any]) {
+    for i in 0 ... array.endIndex {
+        let randomRange = i + 1 ..< array.endIndex
+        if randomRange.isEmpty {
+            break
+        }
+        array.swapAt(i, NSInteger.random(in: randomRange))
+    }
+}
