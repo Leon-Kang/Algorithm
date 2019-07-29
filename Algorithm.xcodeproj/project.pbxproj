@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352DBC6B22EEB9C100CF8153 /* KnuthShuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352DBC6A22EEB9C100CF8153 /* KnuthShuffle.swift */; };
 		35505E9622D34BA50092BA9C /* Compress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35505E9522D34BA50092BA9C /* Compress.swift */; };
 		6B129FDA22631EA200D49F1D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B129FD922631EA200D49F1D /* main.swift */; };
 		6B129FE12263337700D49F1D /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B129FE02263337700D49F1D /* TwoSum.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		352DBC6A22EEB9C100CF8153 /* KnuthShuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnuthShuffle.swift; sourceTree = "<group>"; };
 		35505E9522D34BA50092BA9C /* Compress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compress.swift; sourceTree = "<group>"; };
 		6B129FD622631EA200D49F1D /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B129FD922631EA200D49F1D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				6B129FE2226366DA00D49F1D /* Reverse Integer.swift */,
 				6B129FE42263807500D49F1D /* Jewels and Stones.swift */,
 				35505E9522D34BA50092BA9C /* Compress.swift */,
+				352DBC6A22EEB9C100CF8153 /* KnuthShuffle.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				6B129FE12263337700D49F1D /* TwoSum.swift in Sources */,
 				6B129FE3226366DB00D49F1D /* Reverse Integer.swift in Sources */,
+				352DBC6B22EEB9C100CF8153 /* KnuthShuffle.swift in Sources */,
 				6B129FDA22631EA200D49F1D /* main.swift in Sources */,
 				6B129FE52263807500D49F1D /* Jewels and Stones.swift in Sources */,
 				35505E9622D34BA50092BA9C /* Compress.swift in Sources */,
